@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-style: normal;
+}
+
+*::after, 
+*::before {
+    box-sizing: border-box;
+}
+
+  a {
+    text-decoration: none;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 96px;
+  }
+
+  .first-part {
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 400px;
+    left: 0px;
+    top: 67px;
+    background: #EFF7F2;
+  }
+
+  .first-text h1 {
+    width: 768px;
+    height: 134px;
+    right: 378px;
+    left: 354px;
+    top: 163px;
+    font-weight: 700;
+    font-size: 56px;
+    color: #1D2130;
+}
+
+.content-7{
+  padding-bottom: 96px;
+}
+.content-7-footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.content-7-card {
+  max-width: 630px;
+  width: 100%;
+  padding-top: 40px ;
+  padding-bottom: 40px;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: #BEF3C0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-7-card-left h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 120%;
+  font-variant: small-caps;
+  color: #1D2130;
+  margin-right: 30px;
+}
+.content-7-card-right button {
+  margin-left: 20px;
+  transition: 0.5s;
+}
+.content-7-card-right button:hover {
+  transform: translateX(30%);
+}
+.card-7-line{
+  width: 15%;
+  outline: 1px solid black;
+}
+.content-7-card-center h3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
